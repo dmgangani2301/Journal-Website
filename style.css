@@ -1,0 +1,104 @@
+* {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+body {
+background-color: lightpink;
+text-align: center;
+
+}
+
+li{
+    text-align: left;
+}
+
+h1 {
+    font-size: 1.5em;
+    background-color: rgb(211, 204, 236);
+    border-color: rgb(236, 10, 97);
+    border-style: solid;
+    border-radius: 10px;
+    min-width: 180px;
+    max-width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    background-color: rgb(211, 204, 236);
+    border-radius: 5px;
+    border-color: rgb(236, 10, 97);
+    border-style: solid;
+    padding: 10px;
+    width:fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+h4{
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+img{
+
+    width: 100
+    px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(236, 10, 97);
+
+}
+
+#SiteContainer {
+    background-color: rgb(236, 10, 97);
+    max-width: 70%;
+    min-width: 340px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(236, 10, 97);
+    padding: 20px;
+}
+
+.textContainer {
+    background-color: rgb(236, 10, 97);
+    width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: rgb(211, 204, 236);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+    nav ul a {
+        float: right;
+        display: block;
+        color: black(40, 90, 50);
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
